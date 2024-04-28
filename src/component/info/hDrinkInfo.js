@@ -15,6 +15,10 @@ function Drink() {
     <img src="https://media.istockphoto.com/id/1467199060/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?b=1&s=612x612&w=0&k=20&c=pYVOIV8N70JYqIbnGSJdtGftKYleSMkWg4r_bnVef_8=" alt="" />
     <div className="para"><p>Coffee</p></div>
 </div>
+<div className="info">
+        <img src="https://media.istockphoto.com/id/1997972169/photo/macro-close-up-of-bubbles-in-fresh-coffee.jpg?b=1&s=612x612&w=0&k=20&c=tJjeM0xUuJUXX94kx551Op3R0ziIstBZT7SOXhrmf8Y=" alt="" />
+        <div className="para"><p>FreshCoffee</p></div>
+</div>
 </>
   )
 }

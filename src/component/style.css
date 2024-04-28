@@ -10,14 +10,17 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 /* small */
 img {
   display: block;
@@ -25,44 +28,74 @@ img {
   margin-right: auto;
   width: 800px;
   height: 320px;
-  margin-bottom: 29px;
-  margin-top: 10px;
+  margin-bottom: 45px;
+  margin-top: 12px;
 }
+
 @media (max-width: 830px) {
   img {
     width: 560px;
     height: 288px;
   }
 }
+
 @media (max-width: 660px) {
   img {
-    width: 450px;
+    width: 423px;
     height: 288px;
   }
 }
+
 @media (max-width: 435px) {
   img {
-    width: 350px;
-    height: 150px;
+          height: 149px;
+            margin-top: 44px;
+            width: 350px;
+    
   }
 }
+
 .para {
   position: absolute;
+  background: #352f2f;
   color: var(--light-color);
-  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 25%;
-  top: 98%;
-  width: 50%;
-  text-align: center;
-  font-size: 29px;
-  height: 35px;
+    left: 20%;
+      position: absolute;
+      text-align: center;
+      top: 100%;
+      width: 60%;
+
 }
+
 @media (max-width: 435px) {
   .para {
-    width: 80%;
+    left: 25%;
+    width: 102%;
+  }
+}
+
+@media (max-width: 600px) {
+  .para {
+    left: 0%;
+    /* 464 */
+    top: 98%;
+    width: 103%;
+    margin-bottom: 45px;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 714px) {
+  .para {
+
+    margin-bottom: 45px;
+    margin-top: 3px;
+    width: 94%;
+    left: 10px;
+
   }
 }
 
@@ -87,7 +120,6 @@ img {
   background-color: var(--main-color);
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: var(--light-color);
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -97,6 +129,7 @@ img {
   width: auto;
   margin: 2px;
   cursor: pointer;
+  color: black;
 }
 
 .all-tabs:after {
@@ -130,13 +163,14 @@ img {
   margin-right: 10px;
   transition: all 1s ease-in-out;
 }
+
 .tabs :hover {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 p {
-  margin-top: -4px;
+  margin-top: 9px;
   height: 36px;
 }
 
