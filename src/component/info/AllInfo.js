@@ -21,7 +21,7 @@ function AllInfo() {
       </div>
       <div className="info">
     <img src="https://media.istockphoto.com/id/628208984/photo/silver-dollar-pancakes-with-maple-syrup.jpg?b=1&s=612x612&w=0&k=20&c=SJKQQxD-DKQ592xVixWSzKW4l0OHESbkpayVd4_SSVo=" alt="" />
-    <div className="para"><p>Silver-Pancakes-</p></div>
+    <div className="para"><p>Silver-Pancakes</p></div>
 </div>
       <div className="info">
         <img src="https://media.istockphoto.com/id/1571426065/photo/carbonated-soda-water-with-ice-cubes-and-lemon-in-a-drinking-glass-refreshing-drink-against-a.jpg?b=1&s=612x612&w=0&k=20&c=OAyS8DuwOSEaLQwca7gN78V-2baZWNbjDSH7FCRqKWA=" alt="" />
@@ -42,6 +42,14 @@ function AllInfo() {
       <div className="info">
         <img src="https://www.foodiesfeed.com/wp-content/uploads/2019/07/neapolitan-pizza-margherita.jpg" alt="" />
         <div className="para"><p>Neapolitan-Pizza</p></div>
+      </div>
+      <div className="info">
+        <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/09/tomato-salad.jpg" alt="" />
+        <div className="para"><p>Tomato-Salad</p></div>
+      </div>
+      <div className="info">
+        <img src="https://media.istockphoto.com/id/141254578/photo/big-hamburger-with-real-fire.jpg?s=1024x1024&w=is&k=20&c=1oesBe17reaClb3L2rxaWOAB96lPSty4y5uAEV7bcRI=" alt="" />
+        <div className="para"><p>Big-Hamburger</p></div>
       </div>
       </>
   )
